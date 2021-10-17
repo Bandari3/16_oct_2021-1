@@ -101,12 +101,32 @@ print(len(name))
 name = "Priya"
 age = 39
 print("Hello {name}. You are {age} years old".format(age=age, name=name))
-
-# F-string
+#
+# # F-string
 print(f"Hello {name}, you are {age} years old")
 
 # String functions
 
+name = "Priya"
 print(name.capitalize())
 print(name.upper())
 print(name.lower())
+
+account_num = '10'
+print(account_num.zfill(16))
+
+print(name.find('z'))
+
+string = "python is awesome"
+print(string.islower())
+print(string.isupper())
+print(name.isalpha())
+#print(string.index('zz'))
+print(string.count('o'))
+print(string.replace('awesome', 'great'))
+print(string.split('o'))
+
+# Indentation
+
+if "is" in string:
+    print("hello there")
