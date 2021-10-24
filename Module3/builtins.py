@@ -46,3 +46,10 @@ squares = list(map(lambda x: x**2, list_of_nums))
 print(squares)
 
 print(dir(squares))
+
+import functions
+
+from functions import *
+
+students(name="Dimple", age=23)
+
